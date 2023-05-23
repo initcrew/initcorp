@@ -1,0 +1,56 @@
+#resultBox {
+  margin-top: 20px;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+  line-height: 30px;
+}
+
+#resultBox.correct {
+  background-color: #53dc87;
+}
+
+#resultBox.incorrect {
+  background-color: #ff4f61;
+}
+
+
+.scoreboard-container {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.scoreboard-table {
+  width: 60%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.scoreboard-table th,
+.scoreboard-table td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+
+.scoreboard-table th {
+  background-color: #1c1e29;
+  color: #ff518c;
+}
+
+.scoreboard-table tr:nth-child(even) {
+  background-color: #33354b;
+}
+
+.scoreboard-table tr:hover {
+  background-color: #ff518c;
+}
+
+.neon-retro {
+  box-shadow: 0 0 8px #ff518c;
+}
